@@ -1,7 +1,7 @@
 # DAR-BOT
 ###### Bot para whatsapp, a continuacion tenes lo pasos para la instalacion #########
 <p align="center">
-<img src="https://github.com/darlyn1234/DAR-BOT/blob/main/src/stickers/lq%20idols%20on%20Twitter.jpg" alt="jpg" width="600" height="600"/>
+<img src="https://i.ibb.co/t35HfVx/ALONSOZING.jpg" alt="jpg" width="600" height="600"/>
 </p>
 
 <p align="center">
