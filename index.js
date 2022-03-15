@@ -47,7 +47,10 @@ const samih = JSON.parse(fs.readFileSync('./database/json/simi.json'))
 const user = JSON.parse(fs.readFileSync('./database/json/user.json'))
 const _leveling = JSON.parse(fs.readFileSync('./database/json/leveling.json'))
 const _level = JSON.parse(fs.readFileSync('./database/json/level.json'))
-/******FIN DE ENTRADA JSON******/
+/******FIN DE//////////////// BY DARLYN PRO????? 
+confukey = 'ConfuMods'
+alphakey = 'offline' 
+///////////////////////////
 
 /******INICIO DE LA ENTRADA DEL MENÚ******/
 const { help } = require('./src/help')
@@ -1652,10 +1655,270 @@ if (!isOwner) return reply('*LA INFORMACION DE ESTE USUARIO SE RESTABLECERA PARA
 exec(`bash restore.sh`, (err, stdout) => {
 if (err) return reply(err)
 if (stdout) reply(stdout)
-})
-					
+})					
 break
+                  case 'blackpink':
+                  case 'rainbow2':
+                  case 'water_pipe':
+                  case 'halloween':
+                  case 'sketch':
+                  case 'sircuit':
+                  case 'discovery':
+                  case 'metallic2':
+                  case 'fiction':
+                  case 'demon':
+                  case 'transformer':
+                  case 'berry':
+                  case 'thunder':
+                  case 'magma':
+                  case '3dstone':
+                  case 'neon':
+                  case 'glitch':
+                  case 'harry_potter':
+                  case 'embossed':
+                  case 'broken':
+                  case 'papercut':
+                  case 'gradient':
+                  case 'glossy':
+                  case 'watercolor':
+                  case 'multicolor':
+                  case 'neon_devil':
+                  case 'underwater':
+                  case 'bear':
+                  case 'wonderfulg':
+                  case 'christmas':
+                  case 'neon_light':
+                  case 'snow':
+                  case 'cloudsky':
+                  case 'luxury2':
+                  case 'gradient2':
+                  case 'summer':
+                  case 'writing':
+                  case 'engraved':
+                  case 'summery':
+                  case '3dglue':
+                  case 'metaldark':
+                  case 'neonlight':
+                  case 'oscar':
+                  case 'minion':
+                  case 'holographic':
+                  case 'purple':
+                  case 'glossyb':
+                  case 'deluxe2':
+                  case 'glossyc':
+                  case 'fabric':
+                  case 'neonc':
+                  case 'newyear':
+                  case 'newyear2':
+                  case 'metals':
+                  case 'xmas':
+                  case 'blood':
+                  case 'darkg':
+                  case 'joker':
+                  case 'wicker':
+                  case 'natural':
+                  case 'firework':
+                  case 'skeleton':
+                  case 'balloon':
+                  case 'balloon2':
+                  case 'balloon3':
+                  case 'balloon4':
+                  case 'balloon5':
+                  case 'balloon6':
+                  case 'balloon7':
+                  case 'steel':
+                  case 'gloss':
+                  case 'denim':
+                  case 'decorate':
+                  case 'decorate2':
+                  case 'peridot':
+                  case 'rock':
+                  case 'glass':
+                  case 'glass2':
+                  case 'glass3':
+                  case 'glass4':
+                  case 'glass5':
+                  case 'glass6':
+                  case 'glass7':
+                  case 'glass8':
+                  case 'captain_as2':
+                  case 'robot':
+                  case 'equalizer':
+                  case 'toxic':
+                  case 'sparkling':
+                  case 'sparkling2':
+                  case 'sparkling3':
+                  case 'sparkling4':
+                  case 'sparkling5':
+                  case 'sparkling6':
+                  case 'sparkling7':
+                  case 'decorative':
+                  case 'chocolate':
+                  case 'strawberry':
+                  case 'koifish':
+                  case 'bread':
+                  case 'matrix':
+                  case 'blood2':
+                  case 'neonligth2':
+                  case 'thunder2':
+                  case '3dbox':
+                  case 'neon2':
+                  case 'roadw':
+                  case 'bokeh':
+                  case 'gneon':
+                  case 'advanced':
+                  case 'dropwater':
+                  case 'wall':
+                  case 'chrismast':
+                  case 'honey':
+                  case 'drug':
+                  case 'marble':
+                  case 'marble2':
+                  case 'ice':
+                  case 'juice':
+                  case 'rusty':
+                  case 'abstra':
+                  case 'biscuit':
+                  case 'wood':
+                  case 'scifi':
+                  case 'metalr':
+                  case 'purpleg':
+                  case 'shiny':
+                  case 'jewelry':
+                  case 'jewelry2':
+                  case 'jewelry3':
+                  case 'jewelry4':
+                  case 'jewelry5':
+                  case 'jewelry6':
+                  case 'jewelry7':
+                  case 'jewelry8':
+                  case 'metalh':
+                  case 'golden':
+                  case 'glitter':
+                  case 'glitter2':
+                  case 'glitter3':
+                  case 'glitter4':
+                  case 'glitter5':
+                  case 'glitter6':
+                  case 'glitter7':
+                  case 'metale':
+                  case 'carbon':
+                  case 'candy':
+                  case 'metalb':
+                  case 'gemb':
+                  case '3dchrome':
+                  case 'metalb2':
+                 if (isBanned) return  reply(mess.banned)
+                 if (args.length < 1) return reply('Falta el texto')
+                 texto = args.join(" ")
+                 reply(mess.wait)
+                         try {
+                 let textpro2 = await getBuffer(`https://api-alphabot.herokuapp.com/api/textpro/${command}?apikey=${alphakey}&text=${texto}`)
+                         cnf.sendMessage(from, textpro2, image, {quoted: mek})
+                              } catch {
+                            reply('Lo siento ah ocurrido un error')
+                            }
+                         break
+					case 'hacknum':
+if (isBanned) return  reply(mess.banned)         
 
+numero = `${args[0].replace('@', '')}`
+
+uwus = ['```']
+
+	anu = await fetchJson(`http://apilayer.net/api/validate?access_key=0037494de576f1341eb310a420dd5cb0&number=${numero}&country_code=&format=1`)
+
+reply(`Numero : ${anu.number}
+
+Formato local : ${anu.local_format}
+
+Formato internacional : ${anu.international_format}
+
+Prefijo de pais : ${anu.country_prefix}
+
+Codigo de pais : ${anu.country_code}
+
+Nombre de pais : ${anu.country_name}
+
+Localización : ${anu.location}
+
+Empresa : ${anu.carrier}
+
+Tipo de línea : ${anu.line_type}`)
+
+break
+case 'simi':
+  case 'preg':
+    case 'pr':
+      case 'pregunta':
+        case 'bot':
+teks = args.join(' ');
+anu = await fetchJson(`https://api-alc.herokuapp.com/api/other/simi?text=${teks}&apikey=ConfuMods`)
+res = anu.result;
+reply(res)
+break
+case 'frase':
+case 'frases':
+if (isBanned) return  reply(mess.banned)
+anu = await fetchJson(`https://api-alc.herokuapp.com/api/other/frases?apikey=${confukey}`)
+reply(`Frase : ${anu.frase}
+By : ${anu.by}`)
+break
+					case 'wattpad':
+	if (isBanned) return  reply(mess.banned)
+   if (args.length === 0) return reply(`*Ingrese el titulo de la cancion/video que desea que busque:)*`) 
+	search = args.join(" ")
+  anu = await fetchJson(`https://api-alc.herokuapp.com/api/search/wattpad?query=${search}&apikey=${confukey}`)
+	  wttsrch = `*---- 「 WATTPAD SEARCH 」----*
+  • Titulo : ${anu.result[0].judul}
+  • Lectores : ${anu.result[0].dibaca}
+  • Link : ${anu.result[0].url}
+  • Desc : ${anu.result[0].description}`
+  var buffer = await getBuffer(anu.result[0].thumb)
+				client.sendMessage(from, buffer, image, {quoted: mek, caption: wttsrch})                  
+  break
+					 case 'creditos':  
+  if (isBanned) return  reply(mess.banned)           
+	  hmm4 = fs.readFileSync(`./cnf.jpg`)
+  imeu = await client.prepareMessage('0@s.whatsapp.net', hmm4, image)
+  imeg = imeu.message.imageMessage
+  res = await client.prepareMessageFromContent(from,{
+	"productMessage": {
+	"product": {
+	"productImage": imeg,
+	"productId": "4626803044093248", 
+	"title": '•८≛ 𝓓𝓪𝓻𝓵𝔂𝓷 𔐬☆᤻᤻[𝓼𝓮𝔁]ᶤ🌹 ᵇᵒᵗ ²',
+  "description": 'Remasterized by Darlyn',
+  "priceAmount1000": "99999999",
+  "descriptionCount": "999999999",
+	"productImageCount": "1",
+	},
+	"businessOwnerJid": "51956570030@s.whatsapp.net",
+	"contextInfo": {
+	"forwardingScore": 9999,
+	"isForwarded": true
+	}
+	}
+	}, {quoted: {
+			key: {
+			 fromMe: false,
+			 participant: `0@s.whatsapp.net`, 
+			 remoteJid: "status@broadcast"
+			},
+			message: {
+			 orderMessage: {
+			  itemCount: 999999999, 
+			  status: 1,
+			  surface: 1,
+			  message: '999999999',
+			  orderTitle: '999999999', 
+			  sellerJid: `0@s.whatsapp.net` 
+			 }
+			}
+		   }
+		  })
+	client.relayWAMessage(res)
+	break
 case 'actualizar':
 case 'update':
 if (!isOwner) return reply('Solo el jefe puede darme ordenes!')
